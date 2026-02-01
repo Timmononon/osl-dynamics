@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras import layers # pyright: ignore[reportMissingImports]
+from tensorflow.keras import layers  # pyright: ignore[reportMissingImports]
 
 from osl_dynamics.inference.layers import (
     VectorsLayer,
